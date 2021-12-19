@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Jua
+- Font Author: Copyright 2018 The BM JUA Project Authors
+- Font Source: http://fonts.gstatic.com/s/jua/v8/co3KmW9ljjAjc-DZCsKgsg.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
