@@ -23,11 +23,19 @@ function CompanyList({ search }) {
       {list.map((d, i) => (
         <div
           key={i}
-          className="flex px-4 py-4 my-2 bg-white hover:bg-blue-50 rounded-lg shadow"
+          className="flex justify-around px-4 py-4 my-2 bg-white hover:bg-blue-50 rounded-lg shadow"
         >
-          <div>
-            <img width="80" height="80" alt="pinhome" src={d.img} />
-            <div className="text-gray-600 leading-tight font-semibold mt-1">
+          <div className="text-left">
+            <div
+              style={{
+                width: "50px",
+                height: "50px",
+                overflow: "hidden",
+              }}
+            >
+              <img alt="pinhome" src={d.img} />
+            </div>
+            <div className="text-gray-600 leading-tight font-semibold mt-2">
               {d.name}
             </div>
           </div>

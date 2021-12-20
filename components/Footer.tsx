@@ -22,6 +22,7 @@ function Footer({ twClass = "" }) {
           <li>
             <a
               className="text-blue-500 hover:underline"
+              rel="noopener noreferrer"
               href="https://twitter.com/antonybudianto/status/1471428324140347397"
             >
               WFA List on Twitter
