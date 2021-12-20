@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="container w-full flex justify-evenly mx-auto px-5 py-10 border-t text-sm">
+    <footer className="container w-full xl:w-6/12 flex justify-evenly mx-auto my-2 px-5 py-10 border-t rounded-lg text-sm bg-white/80">
       <div className="">
         <img
           className="mb-2"

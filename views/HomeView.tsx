@@ -63,7 +63,13 @@ function HomeView() {
   const [search, setSearch] = useState("");
 
   return (
-    <div className="">
+    <div
+      style={{
+        backgroundImage: "url(/bg.jpg)",
+        backgroundRepeat: "no-repeat",
+      }}
+      className="bg-contain lg:bg-cover h-screen"
+    >
       <Head>
         <title>WFA-ID | Temukan job WFA impianmu disini </title>
         <link rel="icon" href="/favicon.ico" />
@@ -71,14 +77,8 @@ function HomeView() {
       <div className="absolute w-full">
         <Navbar />
       </div>
-      <div
-        style={{
-          backgroundImage: "url(/bg.jpg)",
-          backgroundRepeat: "no-repeat",
-        }}
-        className="bg-contain lg:bg-cover h-screen overflow-y-auto xl:bg-covser flex items-cfenter justify-center pt-10"
-      >
-        <div className="px-6 sm:px-6 md:px-8 py-6 w-full h-fit sm:w-10/12 lg:w-8/12 xl:w-6/12 bg-white/80 rounded-lg">
+      <div className="container mx-auto w-full xl:w-6/12 overflow-y-auto flex justify-center pt-10">
+        <div className="px-6 sm:px-6 md:px-8 py-6 h-fit w-full  bg-white/80 rounded-lg">
           <div className="text-center">
             <h1 className="text-4xl sm:text-4xl leading-none font-extrabold tracking-tight text-gray-500 mt-8 mb-8 sm:mt-14 sm:mb-10">
               WFA ID
