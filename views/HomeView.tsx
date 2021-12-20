@@ -72,21 +72,21 @@ function HomeView() {
                 <strong>Note:</strong> Data didapatkan langsung dari profil
                 LinkedIn. Apabila menemukan kesalahan data, silakan{" "}
                 <Link href="/contact">
-                  <a className="underline text-blue-500">Kontak kami</a>
+                  <a className="hover:underline text-blue-500">Kontak kami</a>
                 </Link>
                 . Terima kasih.
               </div>
               <div className="mt-2">
                 Background by{" "}
                 <a
-                  className="underline text-blue-500"
+                  className="hover:underline text-blue-500"
                   href="https://unsplash.com/@dan0911?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                 >
                   Daniel Faust
                 </a>{" "}
                 on{" "}
                 <a
-                  className="underline text-blue-500"
+                  className="hover:underline text-blue-500"
                   href="https://unsplash.com/s/photos/bali-villa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                 >
                   Unsplash

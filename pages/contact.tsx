@@ -26,7 +26,7 @@ function Contact() {
               (open-souce), dan dapat diakses di{" "}
               <a
                 rel="noreferrer noopener"
-                className="text-blue-500 underline"
+                className="text-blue-500 hover:underline"
                 href="https://github.com/antonybudianto/wfa-id"
               >
                 GitHub
@@ -37,7 +37,7 @@ function Contact() {
               silahkan mengunjungi{" "}
               <a
                 rel="noreferrer noopener"
-                className="text-blue-500 underline"
+                className="text-blue-500 hover:underline"
                 href="https://github.com/antonybudianto/wfa-id"
               >
                 GitHub
@@ -46,7 +46,7 @@ function Contact() {
             </p>
             <p>Terima kasih.</p>
           </div>
-          <div className="mt-5 text-blue-500 underline">
+          <div className="mt-5 text-blue-500 hover:underline">
             <Link href="/">Back to Home</Link>
           </div>
         </div>

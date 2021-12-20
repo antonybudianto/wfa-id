@@ -197,7 +197,7 @@ function Terms() {
               </pre>
             </div>
           </div>
-          <div className="mt-5 text-blue-500 underline">
+          <div className="mt-5 text-blue-500 hover:underline">
             <Link href="/">Back to Home</Link>
           </div>
         </div>
