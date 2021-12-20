@@ -1,9 +1,11 @@
 import Link from "next/link";
 import React from "react";
 
-function Footer() {
+function Footer({ twClass = "" }) {
   return (
-    <footer className="container w-full xl:w-6/12 flex justify-evenly mx-auto my-2 px-5 py-10 border-t rounded-lg text-sm bg-white/80">
+    <footer
+      className={`container w-full xl:w-6/12 flex justify-evenly mx-auto my-2 px-5 py-10 border-t rounded-lg text-sm ${twClass}`}
+    >
       <div className="">
         <img
           className="mb-2"
@@ -20,7 +22,7 @@ function Footer() {
           <li>
             <a
               className="text-blue-500 hover:underline"
-              href="https://twitter.com/antonybudianto"
+              href="https://twitter.com/antonybudianto/status/1471428324140347397"
             >
               WFA List on Twitter
             </a>

@@ -34,13 +34,15 @@ function Contact() {
             </p>
             <p className="mt-5">
               Apabila kamu memiliki kritik, saran, atau masukan untuk situs ini,
-              silakan mengirimkan email ke{" "}
+              silahkan mengunjungi{" "}
               <a
-                href="mailto:antonybudianto@gmail.com"
-                className="text-blue-500"
+                rel="noreferrer noopener"
+                className="text-blue-500 underline"
+                href="https://github.com/antonybudianto/wfa-id"
               >
-                antonybudianto@gmail.com
+                GitHub
               </a>{" "}
+              kami.
             </p>
             <p>Terima kasih.</p>
           </div>

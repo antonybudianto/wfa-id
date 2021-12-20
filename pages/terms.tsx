@@ -18,7 +18,7 @@ function Terms() {
             <div className="mt-3">
               <pre className="text-sm" style={{ whiteSpace: "pre-line" }}>
                 Syarat dan ketentuan berikut menjelaskan peraturan dan ketentuan
-                penggunaan Website WFA-ID dengan alamat https://wfa.vercel.com.{" "}
+                penggunaan Website WFA-ID dengan alamat https://wfa.vercel.app.{" "}
                 <br />
                 <br />
                 Dengan mengakses website ini, kami menganggap Anda telah
