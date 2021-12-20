@@ -25,7 +25,7 @@ function Footer({ twClass = "" }) {
               rel="noopener noreferrer"
               href="https://github.com/antonybudianto/wfa-id"
             >
-              GitHub wfa-id
+              GitHub
             </a>
           </li>
           <li>
@@ -34,7 +34,7 @@ function Footer({ twClass = "" }) {
               rel="noopener noreferrer"
               href="https://twitter.com/antonybudianto/status/1471428324140347397"
             >
-              WFA List on Twitter
+              Twitter
             </a>
           </li>
         </ul>
