@@ -25,17 +25,17 @@ function CompanyList({ search }) {
           key={i}
           className="flex justify-around px-4 py-4 my-2 bg-white hover:bg-blue-50 rounded-lg shadow"
         >
-          <div className="text-left">
+          <div className="text-left flex flex-col">
             <div
               style={{
                 width: "50px",
                 height: "50px",
-                overflow: "hidden",
               }}
+              className="overflow-hidden border"
             >
               <img alt="pinhome" src={d.img} />
             </div>
-            <div className="text-gray-600 leading-tight font-semibold mt-2">
+            <div className="text-sm lg:w-32 text-gray-600 leading-tight font-semibold mt-2">
               {d.name}
             </div>
           </div>

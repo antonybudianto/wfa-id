@@ -23,17 +23,18 @@ function HomeView() {
         <div
           className="relative h-60 xl:h-96"
           style={{
+            marginBottom: "-1px",
             transform: "rotate(180deg)",
           }}
         >
           <svg viewBox="0 0 1440 200" xmlns="http://www.w3.org/2000/svg">
             <path
-              fill="#fff"
+              fill="rgba(255,255,255,1)"
               d="M 0 101 C 349.5 101 349.5 39 699 39 L 699 39 L 699 0 L 0 0 Z"
               strokeWidth="0"
             ></path>{" "}
             <path
-              fill="#fff"
+              fill="rgba(255,255,255,1)"
               d="M 698 39 C 1069 39 1069 74 1440 74 L 1440 74 L 1440 0 L 698 0 Z"
               strokeWidth="0"
             ></path>{" "}
@@ -61,13 +62,13 @@ function HomeView() {
                 placeholder="masukkan kata kunci..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="w-full sm:w-auto px-6 py-3 text-center lg:text-left text-xl text-gray-600 font-bold shadow border rounded-lg"
+                className="w-full sm:w-auto px-6 py-3 text-center text-xl text-gray-600 font-bold shadow border rounded-lg focus:outline-none focus:ring focus:border-green-500"
               />
             </div>
             <div className="mt-10">
               <CompanyList search={search} />
             </div>
-            <div className="rounded-lg py-4 bg-white/50 text-gray-500 text-sm">
+            <div className="rounded-lg mt-5 py-4 px-2 bg-white/90 text-gray-500 text-sm">
               <div>
                 <strong>Note:</strong> Data didapatkan langsung dari profil
                 LinkedIn. Apabila menemukan kesalahan data, silakan{" "}
@@ -80,6 +81,7 @@ function HomeView() {
                 Background by{" "}
                 <a
                   className="hover:underline text-blue-500"
+                  rel="noopener noreferrer"
                   href="https://unsplash.com/@dan0911?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                 >
                   Daniel Faust
@@ -87,6 +89,7 @@ function HomeView() {
                 on{" "}
                 <a
                   className="hover:underline text-blue-500"
+                  rel="noopener noreferrer"
                   href="https://unsplash.com/s/photos/bali-villa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                 >
                   Unsplash

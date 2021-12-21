@@ -55,7 +55,7 @@ function Navbar() {
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0 flex items-center">
               <Link href="/">
-                <a className="cursor-pointer text-slate-400 font-extrabold">
+                <a className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-green-500">
                   WFA-ID
                   {/* <img
                     className="block lg:hidden h-8 w-auto"
