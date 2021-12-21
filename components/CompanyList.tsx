@@ -33,7 +33,7 @@ function CompanyList({ search }) {
               }}
               className="overflow-hidden border"
             >
-              <img alt="pinhome" src={d.img} />
+              <img alt={d.name} src={d.img} />
             </div>
             <div className="text-sm lg:w-32 text-gray-600 leading-tight font-semibold mt-2">
               {d.name}
